@@ -7,19 +7,29 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import java.util.List;
 @CrossOrigin(origins = "*")
 @RestController
-
 public class PersonController {
 
     @Autowired
     private PersonService personService;
-
+    @PostMapping("/create")
     @RequestMapping("/create")
     public String create(@RequestParam String firstName, @RequestParam String lastName, @RequestParam String address,@RequestParam String phone,@RequestParam String email,@RequestParam String pass,@RequestParam String passc) {
         Person p = personService.create(firstName, lastName, address,phone,email,pass,passc);
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Access-Control-Allow-Origin", "*");
+        headers.add("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT");
+        headers.add("Access-Control-Allow-Headers", "X-Requested-With,content-type");
+        headers.add("Access-Control-Allow-Credentials", "true");
         return p.toString();
     }
 
@@ -27,6 +37,7 @@ public class PersonController {
     public Person getPerson(@RequestParam String firstName) {
         return personService.findByFirstName(firstName);
     }
+    @PostMapping("/create")
 
     @RequestMapping("/getAll")
     public List<Person> getAllPerson() {
