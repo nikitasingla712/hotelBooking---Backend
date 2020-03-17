@@ -21,15 +21,10 @@ public class PersonController {
 
     @Autowired
     private PersonService personService;
-    @PostMapping("/create")
+
     @RequestMapping("/create")
     public String create(@RequestParam String firstName, @RequestParam String lastName, @RequestParam String address,@RequestParam String phone,@RequestParam String email,@RequestParam String pass,@RequestParam String passc) {
         Person p = personService.create(firstName, lastName, address,phone,email,pass,passc);
-        HttpHeaders headers = new HttpHeaders();
-        headers.add("Access-Control-Allow-Origin", "*");
-        headers.add("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT");
-        headers.add("Access-Control-Allow-Headers", "X-Requested-With,content-type");
-        headers.add("Access-Control-Allow-Credentials", "true");
         return p.toString();
     }
 
