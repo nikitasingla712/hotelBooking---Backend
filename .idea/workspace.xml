@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="250916f5-dba8-4a60-bc01-83a19af0f76a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected="Application.SpringMongoDemoApplication">
     <configuration name="SpringMongoDemoApplication" type="Application" factoryName="Application" editBeforeRun="true" nameIsGenerated="true">
@@ -50,7 +52,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in spring-mongo-demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in spring-mongo-demo" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="spring-mongo-demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -62,11 +64,6 @@
       <item itemvalue="Application.SpringMongoDemoApplication" />
       <item itemvalue="JUnit.All in spring-mongo-demo" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.All in spring-mongo-demo" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -121,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585284360574</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="backend">
+      <created>1585285229301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585285229301</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,10 +137,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1584025498984" />
-    <state x="382" y="35" key="#SpringMongoDemoApplication" timestamp="1585285062243">
+    <state x="382" y="35" key="#SpringMongoDemoApplication" timestamp="1585285243800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="382" y="35" key="#SpringMongoDemoApplication/0.0.1366.728@0.0.1366.728" timestamp="1585285062243" />
+    <state x="382" y="35" key="#SpringMongoDemoApplication/0.0.1366.728@0.0.1366.728" timestamp="1585285243800" />
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585285056178">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -149,32 +153,32 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582466764237" />
-    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1585284346877">
+    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1585285221917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585284346877" />
-    <state width="1306" height="176" key="GridCell.Tab.0.bottom" timestamp="1585285063162">
+    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585285221917" />
+    <state width="1306" height="176" key="GridCell.Tab.0.bottom" timestamp="1585286125944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585285063162" />
+    <state width="1306" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585286125944" />
     <state width="1398" height="659" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582610022467" />
     <state width="1398" height="659" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1582610210095" />
-    <state width="1306" height="176" key="GridCell.Tab.0.center" timestamp="1585285063162">
+    <state width="1306" height="176" key="GridCell.Tab.0.center" timestamp="1585286125943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585285063162" />
+    <state width="1306" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585286125943" />
     <state width="1398" height="659" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582610022465" />
     <state width="1398" height="659" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1582610210093" />
-    <state width="1306" height="176" key="GridCell.Tab.0.left" timestamp="1585285063162">
+    <state width="1306" height="176" key="GridCell.Tab.0.left" timestamp="1585286125942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585285063162" />
+    <state width="1306" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585286125942" />
     <state width="1398" height="659" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582610022463" />
     <state width="1398" height="659" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1582610210091" />
-    <state width="1306" height="176" key="GridCell.Tab.0.right" timestamp="1585285063162">
+    <state width="1306" height="176" key="GridCell.Tab.0.right" timestamp="1585286125943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585285063162" />
+    <state width="1306" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585286125943" />
     <state width="1398" height="659" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582610022466" />
     <state width="1398" height="659" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1582610210094" />
     <state width="1306" height="220" key="GridCell.Tab.1.bottom" timestamp="1584714173034">
