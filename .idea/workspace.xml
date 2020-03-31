@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="250916f5-dba8-4a60-bc01-83a19af0f76a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/repository/PersonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/controller/PersonController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/model/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/repository/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/repository/PersonRepository.class" afterDir="false" />
@@ -42,7 +36,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration name="SpringMongoDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringMongoDemoApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.springmongodemo.SpringMongoDemoApplication" />
       <module name="spring-mongo-demo" />
       <extension name="coverage">
@@ -55,11 +49,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SpringMongoDemoApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -72,7 +61,19 @@
       <option name="presentableId" value="Default" />
       <updated>1585625476272</updated>
     </task>
+    <task id="LOCAL-00001" summary="Hotel Backend">
+      <created>1585630478389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585630478390</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hotel Backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Backend" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Project_Structure" timestamp="1585627962988">
@@ -83,33 +84,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582625831398" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1585630332229">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1585630456151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585630332229" />
-    <state width="1398" height="534" key="GridCell.Tab.0.bottom" timestamp="1585119579098">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585630456151" />
+    <state width="1306" height="221" key="GridCell.Tab.0.bottom" timestamp="1585641215068">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1306" height="221" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585641215068" />
     <state width="1398" height="534" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585119579098" />
     <state width="1398" height="659" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1582610210095" />
-    <state width="1398" height="534" key="GridCell.Tab.0.center" timestamp="1585119579097">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1306" height="221" key="GridCell.Tab.0.center" timestamp="1585641215067">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1306" height="221" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585641215067" />
     <state width="1398" height="534" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585119579097" />
     <state width="1398" height="659" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1582610210093" />
-    <state width="1398" height="534" key="GridCell.Tab.0.left" timestamp="1585119579094">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1306" height="221" key="GridCell.Tab.0.left" timestamp="1585641215066">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1306" height="221" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585641215066" />
     <state width="1398" height="534" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585119579094" />
     <state width="1398" height="659" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1582610210091" />
-    <state width="1398" height="534" key="GridCell.Tab.0.right" timestamp="1585119579098">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1306" height="221" key="GridCell.Tab.0.right" timestamp="1585641215067">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1306" height="221" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585641215067" />
     <state width="1398" height="534" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585119579098" />
     <state width="1398" height="659" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1582610210094" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582460270436">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582460270436" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_mongo_demo$SpringMongoDemoApplication.ic" NAME="SpringMongoDemoApplication Coverage Results" MODIFIED="1585630646742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.springmongodemo.*</FILTER>
+    </SUITE>
   </component>
 </project>
