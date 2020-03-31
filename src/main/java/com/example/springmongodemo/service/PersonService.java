@@ -6,16 +6,23 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
 @Service
 public class PersonService {
 
-    @Autowired
-    private PersonRepository personRepository;
+    @Autowired                                                          // || IOC
+    private PersonRepository personRepository;                          // private Class_Name Object_Name
+
 
     //CreateOperation
     public Person create(String firstName, String lastName, String address,String phone,String email,String pass,String passc) {
-        return personRepository.save(new Person(firstName, lastName, address,phone,email,pass,passc));
+        //person = new Person(fn, ln, age)
+        //.save(person)
+        return personRepository.save(new Person(firstName, lastName, address,phone,email,pass,passc));         // .save(Object)
+    }
+
+    public String create(Person person) {
+        personRepository.save(person);
+        return ("Hi, " + person.getFirstName() + person.getLastName() + " you have been registered successfully!");
     }
 
     //RetrieveOperation
@@ -23,17 +30,17 @@ public class PersonService {
         return personRepository.findAll();
     }
 
-    public Person findByFirstName(String firstName) {
-        return personRepository.findByFirstName(firstName);
+    public Person findByEmail(String email) {
+        return personRepository.findByEmail(email);
     }
 
     //UpdateOperation
     public Person update(String firstName, String lastName, String address,String phone,String email,String pass,String passc) {
-        Person p = personRepository.findByFirstName(firstName);
+        Person p = personRepository.findByEmail(email);
+        p.setFirstName(firstName);
         p.setLastName(lastName);
         p.setAddress(address);
         p.setPhone(phone);
-        p.setEmail(email);
         p.setPass(pass);
         p.setPassc(passc);
         return personRepository.save(p);
@@ -44,8 +51,8 @@ public class PersonService {
         personRepository.deleteAll();
     }
 
-    public void delete(String firstName) {
-        Person p = personRepository.findByFirstName(firstName);
+    public void delete(String email) {
+        Person p = personRepository.findByEmail(email);
         personRepository.delete(p);
     }
 }

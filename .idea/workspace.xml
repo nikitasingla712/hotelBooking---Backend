@@ -3,16 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="250916f5-dba8-4a60-bc01-83a19af0f76a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmongodemo/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/repository/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/repository/PersonRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springmongodemo/service/PersonService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="187" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,15 +37,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.SpringMongoDemoApplication">
-    <configuration name="SpringMongoDemoApplication" type="Application" factoryName="Application" editBeforeRun="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="SpringMongoDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.springmongodemo.SpringMongoDemoApplication" />
       <module name="spring-mongo-demo" />
       <extension name="coverage">
@@ -53,18 +55,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in spring-mongo-demo" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="spring-mongo-demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.SpringMongoDemoApplication" />
-      <item itemvalue="JUnit.All in spring-mongo-demo" />
-    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringMongoDemoApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -72,166 +67,49 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="250916f5-dba8-4a60-bc01-83a19af0f76a" name="Default Changelist" comment="" />
-      <created>1584025239032</created>
+      <created>1585625476272</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584025239032</updated>
+      <updated>1585625476272</updated>
     </task>
-    <task id="LOCAL-00001" summary="backend">
-      <created>1584378702841</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1584378702841</updated>
-    </task>
-    <task id="LOCAL-00002" summary="backend">
-      <created>1584451947338</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1584451947347</updated>
-    </task>
-    <task id="LOCAL-00003" summary="backend">
-      <created>1584453833285</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1584453833285</updated>
-    </task>
-    <task id="LOCAL-00004" summary="backend">
-      <created>1584454441379</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1584454441379</updated>
-    </task>
-    <task id="LOCAL-00005" summary="backend">
-      <created>1584454770884</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1584454770884</updated>
-    </task>
-    <task id="LOCAL-00006" summary="backend">
-      <created>1585284360574</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1585284360574</updated>
-    </task>
-    <task id="LOCAL-00007" summary="backend">
-      <created>1585285229301</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1585285229301</updated>
-    </task>
-    <task id="LOCAL-00008" summary="backend">
-      <created>1585287165237</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1585287165237</updated>
-    </task>
-    <task id="LOCAL-00009" summary="backend">
-      <created>1585287368784</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1585287368784</updated>
-    </task>
-    <task id="LOCAL-00010" summary="backend">
-      <created>1585287497938</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1585287497938</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="23" key="#Project_Structure" timestamp="1584025498984">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1585627962988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1584025498984" />
-    <state x="382" y="35" key="#SpringMongoDemoApplication" timestamp="1585287491179">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="382" y="35" key="#SpringMongoDemoApplication/0.0.1366.728@0.0.1366.728" timestamp="1585287491179" />
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585285056178">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585285056178" />
-    <state x="463" y="70" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1585285044578">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="70" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1585285044578" />
-    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1582466764237">
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1585627962988" />
+    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1582625831398">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582466764237" />
-    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1585287454900">
+    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582625831398" />
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1585630332229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585287454900" />
-    <state width="1306" height="176" key="GridCell.Tab.0.bottom" timestamp="1585287533172">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585630332229" />
+    <state width="1398" height="534" key="GridCell.Tab.0.bottom" timestamp="1585119579098">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585287533172" />
-    <state width="1398" height="659" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582610022467" />
+    <state width="1398" height="534" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585119579098" />
     <state width="1398" height="659" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1582610210095" />
-    <state width="1306" height="176" key="GridCell.Tab.0.center" timestamp="1585287533172">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1398" height="534" key="GridCell.Tab.0.center" timestamp="1585119579097">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585287533172" />
-    <state width="1398" height="659" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582610022465" />
+    <state width="1398" height="534" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585119579097" />
     <state width="1398" height="659" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1582610210093" />
-    <state width="1306" height="176" key="GridCell.Tab.0.left" timestamp="1585287533172">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1398" height="534" key="GridCell.Tab.0.left" timestamp="1585119579094">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585287533172" />
-    <state width="1398" height="659" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582610022463" />
+    <state width="1398" height="534" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585119579094" />
     <state width="1398" height="659" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1582610210091" />
-    <state width="1306" height="176" key="GridCell.Tab.0.right" timestamp="1585287533172">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1398" height="534" key="GridCell.Tab.0.right" timestamp="1585119579098">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585287533172" />
-    <state width="1398" height="659" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582610022466" />
+    <state width="1398" height="534" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585119579098" />
     <state width="1398" height="659" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1582610210094" />
-    <state width="1306" height="220" key="GridCell.Tab.1.bottom" timestamp="1584714173034">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582460270436">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1306" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584714173034" />
-    <state width="1306" height="220" key="GridCell.Tab.1.center" timestamp="1584714173033">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584714173033" />
-    <state width="1306" height="220" key="GridCell.Tab.1.left" timestamp="1584714173033">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584714173033" />
-    <state width="1306" height="220" key="GridCell.Tab.1.right" timestamp="1584714173034">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584714173034" />
-    <state x="422" y="83" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584455852000">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="422" y="83" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1584455852000" />
-    <state x="365" y="159" width="672" height="547" key="search.everywhere.popup" timestamp="1585284818339">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="365" y="159" width="672" height="547" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585284818339" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582460270436" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/spring_mongo_demo$SpringMongoDemoApplication.ic" NAME="SpringMongoDemoApplication Coverage Results" MODIFIED="1585284490578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.example.springmongodemo.*</FILTER>
-    </SUITE>
   </component>
 </project>

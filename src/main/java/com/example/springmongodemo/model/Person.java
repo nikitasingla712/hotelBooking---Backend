@@ -10,6 +10,7 @@ public class Person {
 
     String firstName, lastName,address,phone,email,pass,passc;
 
+
     public Person(String firstName, String lastName, String address,String phone,String email,String pass,String passc) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -47,7 +48,6 @@ public class Person {
     public String getPhone() {
         return phone;
     }
-
     public void setPhone(String phone) {
         this.phone = phone;
     }
@@ -55,7 +55,6 @@ public class Person {
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }
@@ -63,7 +62,6 @@ public class Person {
     public String getPass() {
         return pass;
     }
-
     public void setPass(String pass) {
         this.pass = pass;
     }
@@ -71,8 +69,21 @@ public class Person {
     public String getPassc() {
         return passc;
     }
-
     public void setPassc(String passc) {
         this.passc = passc;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id='" + id + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", UID ='" + address + '\''+
+                ", Phone ='" + phone + '\'' +
+                ", E-mail ='" + email + '\'' +
+                ", Password ='" + pass + '\'' +
+                ", Confirm Password ='" + passc + '\'' +
+                '}';
     }
 }
